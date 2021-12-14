@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{min-height: 100vh;
+    width: 100%;
+    background: transparent url('Image/Hero\ Background.png') 0% 0% no-repeat padding-box;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{display: flex;
+padding: 2% 6%;
+justify-content: space-between;
+align-items: center;
+}
+nav img{top: 10px;
+    left: 20px;
+    width: 214px;
+    height: 40px;
+z-index: 1;
+}
+.img-icon{top: 15px;
+    left: 1266px;
+    width: 30px;
+    height: 30px;
+    background: transparent url('Image/Facebook\ icon.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    } 
+    .img-insta{
+        top: 15px;
+left: 1316px;
+width: 30px;
+height: 30px;
+background: transparent url('Image/Instagram\ icon.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+
+    }
+.nav-link{
+        flex: 1;
+text-align:left;
+    }
+.nav-link ul li{
+      list-style: none;
+      display: inline-block;
+      padding: 8px 12px;
+      position: relative;
+  }
+  .nav-link ul li a{
+      color: #fff;
+      text-decoration: none;
+      font-size:20px;
+}
+.top-sidebar{
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000000 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.text-box{top: 35%;
+    left: 25%;
+    width: 650px;
+    height: 96px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    color: var(--unnamed-color-223340);
+    text-align: left;
+    font: normal normal bold 40px/48px Roboto;
+    letter-spacing: 0px;
+    color: #223340;}
+    .text-box h1{
+        font-size: 58px;
+    }
+    .text-box p{top: 319px;
+        left: 77px;
+        width: 600px;
+        height: 48px;
+        text-align: left;
+        font: normal normal normal 20px/24px Roboto;
+        letter-spacing: 0px;
+        color: #10171D;
+   }
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border:1px solid #fff ;
+  padding: auto;
+    font-size: 16px;
+    background: transparent;
+position: relative;
+cursor: pointer;
+}
+.hero-btn:hover{
+border: 1px soild #0060B4;
+background: #0060B4;
+transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
